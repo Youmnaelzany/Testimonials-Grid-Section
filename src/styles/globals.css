@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 
+
+section {
+    border-radius: 0.5rem;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+}
+
+.purple-box {
+    background-image: url('/public/images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: top right 6rem;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
