@@ -22,30 +22,30 @@ import "@/styles/globals.css";
     />
   </head>
   <body class="font-Barlow bg-off-white text-sm">
-    <main class="w-4/5 max-w-5xl m-40 grid grid-cols-3 gap-4 grid-rows-2">
+    <main class="testimonial-grid">
       <section
-        class="bg-purple w-[33rem] p-8 col-start-1 col-end-3 relative purple-box"
+        class="bg-purple p-8 relative purple-box grid-col-span-2 testimonial"
       >
         <div class="flex gap-4 items-center">
-          <div>
+          <div class="">
             <img
-              class="rounded-full w-7"
+              class="rounded-full w-7 border-light-purple border-2 border-solid"
               src="/public/images/image-daniel.jpg"
               alt=""
             />
           </div>
           <div class="text-white font-medium">
             <h1 class="text-sm leading-4">Daniel Clifford</h1>
-            <h2 class="text-xs leading-3">Verified Graduate</h2>
+            <h2 class="text-xs leading-3 text-light-gray">Verified Graduate</h2>
           </div>
         </div>
         <div class="mt-5">
-          <p class="text-xl font-semibold leading-normal text-white w-[30rem]">
+          <p class="text-xl font-semibold leading-normal text-white">
             I received a job offer mid-course, and the subjects I learned were
             current, if not more so, in the company I joined. I honestly feel I
             got every penny&acute;s worth.
           </p>
-          <p class="text-sm font-medium text-light-gray mt-4 w-[29rem]">
+          <p class="text-sm font-medium text-light-gray mt-4">
             “ I was an EMT for many years before I joined the bootcamp. I&acute;
             ve been looking to make a transition and have heard some people who
             had an amazing experience here. I signed up for the free intro
@@ -56,7 +56,7 @@ import "@/styles/globals.css";
           </p>
         </div>
       </section>
-      <section class="col-start-3 col-end-4 w-[16rem] bg-dark-gray p-8">
+      <section class="bg-dark-gray p-8 testimonial">
         <div class="flex gap-4 items-center">
           <div>
             <img
@@ -74,13 +74,111 @@ import "@/styles/globals.css";
         </div>
 
         <div class="mt-6">
-          <p class="text-xl font-semibold text-white w-52">
+          <p class="text-xl font-semibold text-white">
             The team was very supportive and kept me motivated
           </p>
-          <p class="mt-4 text-light-gray font-medium text-sm leading-5 w-48">
+          <p class="mt-4 text-light-gray font-medium text-sm leading-5">
             “ I started as a total newbie with virtually no coding skills. I now
             work as a mobile engineer for a big company. This was one of the
             best investments I&acute;ve made in myself. ”
+          </p>
+        </div>
+      </section>
+      <section class="bg-white p-8 testimonial">
+        <div class="flex gap-4 items-center">
+          <div>
+            <img
+              class="rounded-full w-7"
+              src="/public/images/image-jeanette.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <h2 class="text-sm font-medium leading-4 text-dark-gray">
+              Jeanette Harmon
+            </h2>
+            <h3 class="text-xs font-medium leading-3 text-light-gray">
+              Verified Graduate
+            </h3>
+          </div>
+        </div>
+        <div class="mt-4">
+          <p class="text-xl font-semibold leading-normal text-dark-gray">
+            An overall wonderful and rewarding experience
+          </p>
+          <p class="text-sm font-medium leading-5 text-light-gray mt-8">
+            “ Thank you for the wonderful experience! I now have a job I really
+            enjoy, and make a good living while doing something I love. ”
+          </p>
+        </div>
+      </section>
+      <section class="p-8 bg-dark-navy grid-col-span-2 testimonial">
+        <div class="flex gap-4 items-center">
+          <div>
+            <img
+              class="rounded-full w-7 border-light-purple border-2 border-solid"
+              src="/public/images/image-patrick.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <h2 class="text-sm font-medium leading-4 text-white">
+              Patrick Abrams
+            </h2>
+            <h3 class="text-xs leading-3 text-dark-gray font-medium">
+              Verified Graduate
+            </h3>
+          </div>
+        </div>
+        <div class="mt-6">
+          <p class="text-xl leading-normal font-semibold text-off-white">
+            Awesome teaching support from TAs who did the bootcamp themselves.
+            Getting guidance from them and learning from their experiences was
+            easy.
+          </p>
+          <p class="mt-8 text-sm font-medium text-dark-gray leading-5">
+            “ The staff seem genuinely concerned about my progress which I find
+            really refreshing. The program gave me the confidence necessary to
+            be able to go out in the world and present myself as a capable
+            junior developer. The standard is above the rest. You will get the
+            personal attention you need from an incredible community of smart
+            and amazing people. ”
+          </p>
+        </div>
+      </section>
+      <section class="bg-white p-8 testimonial">
+        <div class="flex gap-4 items-center">
+          <div>
+            <img
+              class="rounded-full w-7"
+              src="/public/images/image-kira.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <h2 class="text-dark-navy text-sm font-medium leading-4">
+              Kira Whittle
+            </h2>
+            <h3 class="text-light-gray text-xs leading-3">Verified Graduate</h3>
+          </div>
+        </div>
+        <div class="mt-6">
+          <p class="text-dark-navy text-xl leading-normal">
+            Such a life-changing experience. Highly recommended!
+          </p>
+          <p class="text-dark-gray text-sm font-medium leading-5 mt-8">
+            “ Before joining the bootcamp, I’ve never written a line of code. I
+            needed some structure from professionals who can help me learn
+            programming step by step. I was encouraged to enroll by a former
+            student of theirs who can only say wonderful things about the
+            program. The entire curriculum and staff did not disappoint. They
+            were very hands-on and I never had to wait long for assistance. The
+            agile team project, in particular, was outstanding. It took my
+            learning to the next level in a way that no tutorial could ever
+            have. In fact, I’ve often referred to it during interviews as an
+            example of my developent experience. It certainly helped me land a
+            job as a full-stack developer after receiving multiple offers. 100%
+            recommend! ”
           </p>
         </div>
       </section>

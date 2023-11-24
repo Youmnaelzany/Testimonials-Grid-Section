@@ -4,10 +4,28 @@
 
 
 
-section {
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.testimonial-grid {
+    display: grid;
+    gap: 1.5rem;
+    width: min(95%, 70rem);
+    padding-block: 2rem;
+    margin-inline: auto;
+}
+
+
+.testimonial {
     border-radius: 0.5rem;
     box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
 }
+
+
+
 
 .purple-box {
     background-image: url('/public/images/bg-pattern-quotation.svg');
@@ -22,4 +40,22 @@ section {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 50rem) {
+
+    .grid-col-span-2 {
+        grid-column: span 2;
+
+    }
+
+    .testimonial-grid {
+        grid-template-columns: repeat(4, 17rem);
+    }
+
+    .testimonial:last-child {
+        grid-column: 4;
+        grid-row: 1/3;
+    }
+
 }
